@@ -1,0 +1,63 @@
+/* global styling */
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-size: 120%;
+	font-family: Monospace;
+    background-image: url(../ASSETS/background\ img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* title & instrucstions styling */
+h1 {
+	text-align: center;
+    font-weight: bold;
+	text-decoration: underline;
+    
+    
+}
+p {
+	text-align: center;
+}
+/* converter styling */
+form {
+	width: 90%;
+  max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* footer styling */
+footer {
+	text-align: center;
+	margin-top: 5%;
+}
+a{
+    color: aqua;
+}
+.box{
+    margin: 10% 10%;
+    border: 2px solid black;
+    background-color: transparent;
+    color: white;
+    box-shadow: 5px 0px 5px 5px #323232;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: cursive;
+
+}
+.cal{
+   
+    text-align: center;
+    margin: 20px 75px;
+    padding: 20px 30px;
+    font-size: x-large;
+   
+}
+.res{
+    border: 2px solid rgb(202, 62, 116);
+    background: black;
+    margin: 0px 20px;
+    color: whitesmoke;
+    
+}

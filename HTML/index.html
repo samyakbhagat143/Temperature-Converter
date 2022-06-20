@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body class="" id="bi">
+  <div class="box">
+    <h1>Celsius - Fahrenheit converter</h1>
+		<p>Input your temperature in Celsius or in Fahrenheit degrees, and the app with convert it into the other scale of temperature.</p>
+		<form>
+			<div class="cal">
+				<label><input type="radio" name="choose" value="celsiustofahrenheit" id="c" checked>Celsius to Fahrenheit</label><br>
+				<label><input type="radio" name="choose" value="fahrenheittocelsius" id="f">Fahrenheit to Celsius</label><br>
+				<br>
+				&deg;C: <input type="text" name="celsius" placeholder="Temperature in Celsius" id="celsius"><br>
+				<br>
+				&deg;F: <input type="text" name="fahrenheit" placeholder="Temperature in Fahrenheit" id="fahrenheit" disabled><br>
+				<br>
+				<div class="res"><h2 id="result"></h2></div>
+			</div>
+		</form>
+		<footer>
+			<small>&copy; <a href="http://meanwebdeveloper.wordpress.com" target="_blank">2022 Samyak Bhagat</small>
+		</footer>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
